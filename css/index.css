@@ -1,0 +1,12 @@
+body {
+    background-image: url("../img/index/space_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
