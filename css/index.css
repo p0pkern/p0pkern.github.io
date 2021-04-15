@@ -125,14 +125,24 @@
     z-index: -1;
 }
 
-.backsquare {
+.backsquare-a {
     position: absolute;
-    width: 80%;
+    width: 75%;
     height: 250px;
     background-color: #ADADAD;
-    margin-top: -260px;
-    margin-left: 35px;
+    margin-top: -200px;
     z-index: -1;
+}
+
+.backsquare-b {
+    position: absolute;
+    width: 75%;
+    height: 250px;
+    background-color: #ADADAD;
+    margin-top: -280px;
+    margin-left: 10px;
+    z-index: -1;
+    
 }
 
 .inner-text {
@@ -153,18 +163,48 @@
     background-color: #ADADAD;
 }
 
-#arrow-container-row-a {
-    position: absolute;
+#arrow-container-row-a,
+#arrow-container-row-b {
     display: flex;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
-.arrow-left-a {
+.arrow-left-a,
+.arrow-left-b {
+    position: absolute;
     margin-right: 30px;
     margin-left: -5px;
 }
 
-.arrow-tip {
-    margin-left: 15px;
-    margin-top: -30px;
+.arrow-right-a,
+.arrow-right-b {
+    position: absolute;
+    margin-left: 45px;
+}
+
+.arrow-tip-a,
+.arrow-tip-b {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+#bottom-arrow-rotate {
+    transform: rotate(90deg)
+}
+
+#top-arrow-rotate {
+    transform: rotate(-90deg)
+}
+
+#top-arrow-pos {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -70px;
+}
+
+#bottom-arrow-pos {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 390px;
 }
