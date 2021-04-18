@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* TITLE LOGO */
 
 /* Decorative Squares */
@@ -108,44 +114,34 @@
     color: #2E1114;
 }
 
-/* Blog Section */
+/* Image links section */
 
-#section-blog,
-#section-about {
-    display: block;
-    width: 75%;
-    text-align: center;
-    align-self: center;
-    padding: 1.5em 1.5em;
-    background-color: #83677B;
-    height: 250px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 40px;
-    z-index: -1;
+.card {
+    background-color: #64485C;
 }
 
-.backsquare-a {
-    position: absolute;
-    width: 75%;
-    height: 250px;
+.inner-text, .img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ADADAD;
-    margin-top: -200px;
-    z-index: -1;
+    margin-bottom: 30px;
+    border: 1px solid black;
 }
 
-.backsquare-b {
-    position: absolute;
-    width: 75%;
-    height: 250px;
-    background-color: #ADADAD;
-    margin-top: -280px;
-    margin-left: 10px;
-    z-index: -1;
+.img-title {
+    background-color: #64485C;
+    width: 80%;
+    border-top: 100px solid #2E1114;
+}
+
+.title-text {
     
+    color: #ADADAD;
+    padding: 0;
+    margin: 0;
+    margin-top: -70px;
+    font-size: 8vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
-
-.inner-text {
-    padding: 1em 1em;
-}
-
