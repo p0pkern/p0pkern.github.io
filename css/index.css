@@ -136,7 +136,6 @@ img {
 }
 
 .title-text {
-    
     color: #ADADAD;
     padding: 0;
     margin: 0;
@@ -144,4 +143,58 @@ img {
     font-size: 8vw;
     white-space: nowrap;
     overflow: hidden;
+}
+
+/*  Footer  */
+
+footer {
+    background-color: #ADADAD;
+    width: 100%;
+    margin-left: 0;
+    padding: 50px;
+}
+
+footer p {
+    margin: 0;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-image: url("../img/index/Background_Image.png");
+        background-size: contain;
+    }
+
+    .title-text {
+        font-size: 3vw;
+    }
+
+    .inner-text p {
+        padding: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .gallery {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #img-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        width: 500px;
+        margin: 50px;
+    }
+    
+    #profile-img {
+        width: 500px;
+        height: auto;
+        margin-right: 15%;
+    }
 }
